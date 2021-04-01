@@ -1,0 +1,33 @@
+
+
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1em;
+    color: #4A4A4A;
+    background-color: #fff;
+    text-align: center;
+    margin: 2em;
+}
+
+input {
+    padding: .5em 6em .5em 1em;
+}
+
+.gallery {
+    max-width: 1000px;
+    padding: 0;
+    margin: 20px auto;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, max-content));
+    gap: 30px;
+
+}
+
